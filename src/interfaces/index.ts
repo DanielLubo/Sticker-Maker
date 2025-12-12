@@ -1,0 +1,1 @@
+export type { ImageFile, ImageUploaderProps } from './image.interface';
