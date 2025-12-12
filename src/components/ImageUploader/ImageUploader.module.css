@@ -1,0 +1,65 @@
+.uploaderContainer {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.uploadArea {
+    border: 2px dashed var(--gray-300);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    text-align: center;
+    background: var(--gray-50);
+    transition: all 0.3s ease;
+    cursor: pointer;
+}
+
+.uploadArea:hover {
+    border-color: var(--primary);
+    background: white;
+}
+
+.uploadInput {
+    display: none;
+}
+
+.uploadLabel {
+    display: inline-block;
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--primary);
+    color: white;
+    border-radius: var(--radius-md);
+    cursor: pointer;
+    font-weight: 500;
+    transition: background 0.2s ease;
+}
+
+.uploadLabel:hover {
+    background: var(--primary-dark);
+}
+
+.uploadText {
+    margin-top: var(--spacing-md);
+    color: var(--gray-600);
+    font-size: 0.875rem;
+}
+
+.error {
+    padding: var(--spacing-md);
+    background: #fee2e2;
+    border: 1px solid var(--error);
+    border-radius: var(--radius-md);
+    color: var(--error);
+    font-weight: 500;
+}
+
+.previewContainer {
+    text-align: center;
+}
+
+.preview {
+    max-width: 100%;
+    height: auto;
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+}

@@ -1,0 +1,52 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: var(--spacing-xl);
+}
+
+.header {
+    text-align: center;
+    margin-bottom: var(--spacing-xl);
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--gray-900);
+    margin-bottom: var(--spacing-sm);
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: var(--gray-600);
+}
+
+.content {
+    background: white;
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-xl);
+    box-shadow: var(--shadow-md);
+}
+
+.fileInfo {
+    margin-top: var(--spacing-xl);
+    padding: var(--spacing-lg);
+    background: var(--gray-50);
+    border-radius: var(--radius-md);
+    border-left: 4px solid var(--primary);
+}
+
+.fileInfo h2 {
+    font-size: 1.25rem;
+    margin-bottom: var(--spacing-md);
+    color: var(--gray-900);
+}
+
+.fileInfo p {
+    margin-bottom: var(--spacing-sm);
+    color: var(--gray-700);
+}
+
+.fileInfo p:last-child {
+    margin-bottom: 0;
+}
