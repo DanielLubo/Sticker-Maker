@@ -4,10 +4,10 @@ export interface ImageFile {
     size: number;
     type: string;
     preview: string;
-}
+};
 
 export interface ImageUploaderProps {
     onImageSelected: (file: File) => void;
     maxFileSize?: number;
     acceptedFormats?: string[];
-}
+};
